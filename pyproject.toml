@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dj-media-hub"
+version = "1.0.0"
+description = "Composite MCP server - VirtualDJ + Plex + more (cross-server workflows)"
+authors = [
+    {name = "Sandra Schipal", email = "sandra@sandraschi.dev"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10,<3.12"  # Python 3.11 for aubio compatibility
+keywords = ["mcp", "dj", "plex", "virtualdj", "fastmcp", "composite", "media"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Multimedia :: Video"
+]
+
+dependencies = [
+    "fastmcp>=2.13.0,<2.14.0",
+    # Mount these as local editable installs or PyPI packages
+    # For now, we'll assume they're installed in the same environment
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.1.0"
+]
+# Install the component servers
+servers = [
+    "virtualdj-mcp @ file:///D:/Dev/repos/virtualdj-mcp",
+    "plex-mcp @ file:///D:/Dev/repos/plexmcp"
+]
+
+[project.scripts]
+dj-media-hub = "dj_media_hub.server:main"
+
+[project.urls]
+Homepage = "https://github.com/sandraschi/dj-media-hub"
+Repository = "https://github.com/sandraschi/dj-media-hub.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

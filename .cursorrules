@@ -1,0 +1,57 @@
+# DJ Media Hub - Cursor Rules
+
+## Project Overview
+Composite MCP server mounting VirtualDJ-MCP and Plex-MCP for cross-server workflows.
+
+## Key Files
+- `src/dj_media_hub/server.py` - Main composite server with mounting and cross-server tools
+- `pyproject.toml` - Dependencies (requires Python 3.11 for aubio)
+
+## Development Guidelines
+
+### Code Style
+- Use `ruff` for linting
+- Follow FastMCP 2.13+ patterns
+- Type hints required for all functions
+- Async/await for all MCP tools
+
+### Cross-Server Patterns
+```python
+@mcp.tool()
+async def cross_server_workflow(...):
+    # 1. Get data from server A
+    from server_a import service_a
+    data = await service_a.get_data()
+    
+    # 2. Transform if needed
+    transformed = process(data)
+    
+    # 3. Send to server B
+    from server_b import service_b
+    result = await service_b.action(transformed)
+    
+    return result
+```
+
+### Adding New Mounts
+```python
+# In server.py
+try:
+    from new_server.server import mcp as new_mcp
+    mcp.mount("/prefix", new_mcp)
+except ImportError:
+    pass  # Optional dependency
+```
+
+## Rule #4: Unicode Emoji Policy (STRICT) - CODE/SCRIPTS ONLY
+
+In `.py`, `.ps1`, `.sh` files:
+- STATUS: check, cross, warning, lightcheck, lightcross
+- DOCUMENTS: books, folder, clipboard, package, chart, document
+- ACTIONS: target, rocket, lightbulb, link, wrench, gear
+- DEVELOPMENT: tools, test, construction, laptop
+- CELEBRATION: sparkles, party, music
+- OTHER: strength, robot, globe, speech, lock, key
+
+Markdown files (.md) are exempt from emoji restrictions.
+
