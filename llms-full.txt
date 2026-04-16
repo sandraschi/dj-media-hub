@@ -1,3 +1,13 @@
+# dj-media-hub
+> **VirtualDJ + Plex = Unlimited Possibilities** 🎧📺 A composite MCP server that mounts multiple media servers under one roof, enabling cross-server workflows that no single server could achieve alone. |...
+
+Generated on: 2026-03-02 23:59:27
+
+## Docs - Full Content
+
+### Readme
+Source: README.md
+```
 # DJ Media Hub - Composite MCP Server
 
 **VirtualDJ + Plex = Unlimited Possibilities** 🎧📺
@@ -172,3 +182,149 @@ mcp.mount("/twitch", twitch_mcp)      # Twitch chat/alerts
 
 MIT License - See LICENSE file
 
+
+```
+
+### Assessment
+Source: ASSESSMENT.md
+```
+# dj-media-hub - Project Assessment
+
+**Category**: Other Project  
+**Assessment Date**: 2026-01-01  
+**Status**: Runt
+
+---
+
+## 📊 **Assessment Summary**
+
+| Metric | Value |
+|--------|-------|
+| **Status** | Runt |
+| **Development Status** | Needs Major Work |
+| **Runt Status** | RUNT - No MCPB packaging |
+| **Last Modified** | 11/28/2025 11:59:26 |
+| **Has Git Repository** | True |
+| **Has Proper Structure** | False |
+| **Has MCPB Packaging** | False |
+| **Has CI/CD Pipeline** | False |
+| **Has Monitoring Stack** | False |
+
+---
+
+## 🎯 **Standards Compliance**
+
+- ❌ No standards compliance detected
+---
+
+## 📋 **Important TODOs**
+
+- 🔴 **CRITICAL**: RUNT - No MCPB packaging
+- 🔴 **CRITICAL**: Implement proper project structure (src/, tests/, pyproject.toml)
+- 🔴 **CRITICAL**: Implement MCPB packaging (manifest.json)
+- 🟡 **IMPORTANT**: Set up CI/CD pipeline
+- 🟡 **IMPORTANT**: Implement monitoring stack
+---
+
+## 🚀 **Next Steps**
+
+### **Major Refactoring Required**
+1. **Initialize Git repository** if missing
+2. **Implement proper project structure**
+3. **Set up MCPB packaging**
+4. **Create CI/CD pipeline**
+5. **Update documentation**
+6. **Implement monitoring stack**
+---
+
+## 📚 **References**
+
+- [MCP Central Documentation Standards](../STANDARDS.md)
+- [FastMCP 2.12 Migration Guide](../FASTMCP_2.12_MIGRATION.md)
+- [MCPB Packaging Standards](../MCPB_PACKAGING_STANDARDS.md)
+- [Monitoring Standards](../monitoring/README.md)
+
+---
+
+*Assessment generated on 2026-01-01 21:47:42*
+
+```
+
+## Configuration - Full Content
+
+### Pyproject
+Source: pyproject.toml
+```
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dj-media-hub"
+version = "1.0.0"
+description = "Composite MCP server - VirtualDJ + Plex + more (cross-server workflows)"
+authors = [
+    {name = "Sandra Schipal", email = "sandra@sandraschi.dev"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10,<3.12"  # Python 3.11 for aubio compatibility
+keywords = ["mcp", "dj", "plex", "virtualdj", "fastmcp", "composite", "media"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Multimedia :: Video"
+]
+
+dependencies = [
+    "fastmcp>=2.14.3,<3.0.0",
+    # Mount these as local editable installs or PyPI packages
+    # For now, we'll assume they're installed in the same environment
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.1.0"
+]
+# Install the component servers
+servers = [
+    "virtualdj-mcp @ file:///D:/Dev/repos/virtualdj-mcp",
+    "plex-mcp @ file:///D:/Dev/repos/plexmcp"
+]
+
+[project.scripts]
+dj-media-hub = "dj_media_hub.server:main"
+
+[project.urls]
+Homepage = "https://github.com/sandraschi/dj-media-hub"
+Repository = "https://github.com/sandraschi/dj-media-hub.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+
+
+```
+
+### Config
+Source: .git\config
+```
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+
+```

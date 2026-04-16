@@ -1,0 +1,12 @@
+# dj-media-hub
+> **VirtualDJ + Plex = Unlimited Possibilities** 🎧📺 A composite MCP server that mounts multiple media servers under one roof, enabling cross-server workflows that no single server could achieve alone. |...
+
+This project includes automated llms.txt generation for AI accessibility.
+
+## Docs
+- [Readme](README.md): **VirtualDJ + Plex = Unlimited Possibilities** 🎧📺
+- [Assessment](ASSESSMENT.md): **Category**: Other Project
+
+## Configuration
+- [Pyproject](pyproject.toml): Python project configuration and dependencies
+- [Config](.git\config): Application configuration files
