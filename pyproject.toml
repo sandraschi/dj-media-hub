@@ -7,11 +7,11 @@ name = "dj-media-hub"
 version = "1.0.0"
 description = "Composite MCP server - VirtualDJ + Plex + more (cross-server workflows)"
 authors = [
-    {name = "Sandra Schipal", email = "sandra@sandraschi.dev"}
+    {name = "Sandra Schipal", email = "sandraschipal@gmail.com"}
 ]
 readme = "README.md"
 license = {text = "MIT"}
-requires-python = ">=3.10,<3.12"  # Python 3.11 for aubio compatibility
+requires-python = ">=3.10"
 keywords = ["mcp", "dj", "plex", "virtualdj", "fastmcp", "composite", "media"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -24,7 +24,8 @@ classifiers = [
 ]
 
 dependencies = [
-    "fastmcp>=3.1.0,<4",
+    "aubio>=0.4.9",
+    "fastmcp>=3.4.4,<4",
     # Mount these as local editable installs or PyPI packages
     # For now, we'll assume they're installed in the same environment
 ]
@@ -38,7 +39,7 @@ dev = [
 # Install the component servers
 servers = [
     "virtualdj-mcp @ file:///D:/Dev/repos/virtualdj-mcp",
-    "plex-mcp @ file:///D:/Dev/repos/plexmcp"
+    "plexmcp @ file:///D:/Dev/repos/plex-mcp"
 ]
 
 [project.scripts]
