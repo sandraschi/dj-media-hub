@@ -1,0 +1,888 @@
+[
+  {
+    "tool": "hub_status",
+    "params": {},
+    "description": "Check both servers status"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Daft Punk Around the World",
+      "deck_id": 1
+    },
+    "description": "Load track to deck 1"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Chemical Brothers Block Rockin",
+      "deck_id": 2
+    },
+    "description": "Load track to deck 2"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Fatboy Slim Praise You",
+      "deck_id": 3
+    },
+    "description": "Load track to deck 3"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Prodigy Firestarter",
+      "deck_id": 4
+    },
+    "description": "Load track to deck 4"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Underworld Born Slippy",
+      "deck_id": 5
+    },
+    "description": "Load track to deck 5"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Orbital Halcyon",
+      "deck_id": 6
+    },
+    "description": "Load track to deck 6"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Aphex Twin Windowlicker",
+      "deck_id": 7
+    },
+    "description": "Load track to deck 7"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Massive Attack Teardrop",
+      "deck_id": 8
+    },
+    "description": "Load track to deck 8"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Bonobo",
+      "deck_id": 1
+    },
+    "description": "Load Bonobo to deck 1"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Fred again..",
+      "deck_id": 2
+    },
+    "description": "Load Fred Again to deck 2"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Four Tet",
+      "deck_id": 3
+    },
+    "description": "Load Four Tet to deck 3"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Jamie xx",
+      "deck_id": 1
+    },
+    "description": "Load Jamie xx to deck 1"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Caribou",
+      "deck_id": 2
+    },
+    "description": "Load Caribou to deck 2"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Bicep",
+      "deck_id": 3
+    },
+    "description": "Load Bicep to deck 3"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Floating Points",
+      "deck_id": 4
+    },
+    "description": "Load Floating Points to deck 4"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Burial",
+      "deck_id": 1
+    },
+    "description": "Load Burial to deck 1"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Jon Hopkins",
+      "deck_id": 2
+    },
+    "description": "Load Jon Hopkins to deck 2"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Rival Consoles",
+      "deck_id": 1
+    },
+    "description": "Load Rival Consoles"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Nils Frahm",
+      "deck_id": 1
+    },
+    "description": "Load Nils Frahm"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Olafur Arnalds",
+      "deck_id": 2
+    },
+    "description": "Load Olafur Arnalds"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Max Richter",
+      "deck_id": 3
+    },
+    "description": "Load Max Richter"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Boards of Canada",
+      "deck_id": 1
+    },
+    "description": "Load Boards of Canada"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Autechre",
+      "deck_id": 2
+    },
+    "description": "Load Autechre"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Squarepusher",
+      "deck_id": 3
+    },
+    "description": "Load Squarepusher"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Trentemoller",
+      "deck_id": 4
+    },
+    "description": "Load Trentemoller"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Moderat",
+      "deck_id": 5
+    },
+    "description": "Load Moderat"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Apparat",
+      "deck_id": 6
+    },
+    "description": "Load Apparat"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Moby",
+      "deck_id": 1
+    },
+    "description": "Load Moby"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Pink Floyd",
+      "deck_id": 1
+    },
+    "description": "Load Pink Floyd"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Kraftwerk",
+      "deck_id": 1,
+      "search_type": "artist"
+    },
+    "description": "Search artist and load"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Random Access Memories",
+      "deck_id": 2,
+      "search_type": "album"
+    },
+    "description": "Search album and load"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Lemonade",
+      "deck_id": 3
+    },
+    "description": "Load Beyonce track"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Get Lucky Daft Punk",
+      "deck_id": 4
+    },
+    "description": "Load Get Lucky"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Classical Piano Sonata",
+      "deck_id": 1
+    },
+    "description": "Load classical to deck 1"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Jazz Trio",
+      "deck_id": 2
+    },
+    "description": "Load jazz to deck 2"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Rock Anthem",
+      "deck_id": 5
+    },
+    "description": "Load rock to deck 5"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "EDM Banger",
+      "deck_id": 6
+    },
+    "description": "Load EDM to deck 6"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Slow Jam",
+      "deck_id": 7
+    },
+    "description": "Load slow jam to deck 7"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Acapella",
+      "deck_id": 8
+    },
+    "description": "Load acapella to deck 8"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "xxyyzz nonexistent track",
+      "deck_id": 1
+    },
+    "description": "Test nonexistent track"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Fleetwood Mac",
+      "deck_id": 1
+    },
+    "description": "Load Fleetwood Mac"
+  },
+  {
+    "tool": "plex_to_deck",
+    "params": {
+      "search_query": "Stevie Wonder",
+      "deck_id": 2
+    },
+    "description": "Load Stevie Wonder"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Party Mix",
+      "shuffle": true,
+      "limit": 30
+    },
+    "description": "Party Mix to automix shuffled"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Sunday Chill",
+      "shuffle": false,
+      "limit": 20
+    },
+    "description": "Chill playlist in order"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Workout Energy",
+      "shuffle": true,
+      "limit": 40
+    },
+    "description": "Workout playlist shuffled"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Late Night Jazz",
+      "shuffle": false,
+      "limit": 15
+    },
+    "description": "Jazz playlist in order"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Techno Set",
+      "shuffle": true,
+      "limit": 50
+    },
+    "description": "Techno set full shuffle"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Dinner Music",
+      "shuffle": true,
+      "limit": 10
+    },
+    "description": "Short dinner playlist"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Ambient Evening",
+      "shuffle": false,
+      "limit": 25
+    },
+    "description": "Ambient playlist"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Funk Grooves",
+      "shuffle": true,
+      "limit": 35
+    },
+    "description": "Funk playlist shuffled"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "All Night Long",
+      "shuffle": true,
+      "limit": 100
+    },
+    "description": "Max playlist load"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Empty Playlist Test"
+    },
+    "description": "Test empty playlist"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Road Trip",
+      "shuffle": true,
+      "limit": 60
+    },
+    "description": "Road trip playlist"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Coding Focus",
+      "shuffle": false,
+      "limit": 10
+    },
+    "description": "Focus music"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Opening Set",
+      "shuffle": true,
+      "limit": 15
+    },
+    "description": "Opening set playlist"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Peak Time",
+      "shuffle": true,
+      "limit": 25
+    },
+    "description": "Peak time energy"
+  },
+  {
+    "tool": "plex_playlist_to_automix",
+    "params": {
+      "playlist_name": "Minimal",
+      "shuffle": false,
+      "limit": 5
+    },
+    "description": "Minimal playlist test"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Saturday Night Set",
+      "plex_library": "Music"
+    },
+    "description": "Save latest recording to Plex"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Deep House Session",
+      "plex_library": "Music"
+    },
+    "description": "Save deep house recording"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Ambient Sunrise Mix"
+    },
+    "description": "Save ambient mix"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Funk Set Live",
+      "plex_library": "Music"
+    },
+    "description": "Save funk set"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Techno Journey",
+      "plex_library": "Music",
+      "recording_id": "rec_123"
+    },
+    "description": "Save specific recording"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Live at Studio 2025",
+      "recording_id": "rec_456"
+    },
+    "description": "Save specific recording ID"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Radio Show Vol 3",
+      "plex_library": "Podcasts"
+    },
+    "description": "Save to podcast library"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Final Set"
+    },
+    "description": "Archive final mix"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Set 1",
+      "recording_id": "rec_001"
+    },
+    "description": "Save recording 001"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Set 2",
+      "recording_id": "rec_002"
+    },
+    "description": "Save recording 002"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Set 3",
+      "recording_id": "rec_003"
+    },
+    "description": "Save recording 003"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Set 4",
+      "recording_id": "rec_004"
+    },
+    "description": "Save recording 004"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Set 5",
+      "recording_id": "rec_005"
+    },
+    "description": "Save recording 005"
+  },
+  {
+    "tool": "record_mix_to_plex",
+    "params": {
+      "mix_name": "Test Mix"
+    },
+    "description": "Save with no recording"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Daft Punk",
+        "Chemical Brothers",
+        "Fatboy Slim",
+        "Prodigy"
+      ],
+      "start_deck": 1
+    },
+    "description": "Load 4 tracks to decks 1-4"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Underworld",
+        "Orbital",
+        "Aphex Twin",
+        "Massive Attack"
+      ],
+      "start_deck": 5
+    },
+    "description": "Load 4 tracks to decks 5-8"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Bonobo",
+        "Four Tet",
+        "Caribou"
+      ],
+      "start_deck": 1
+    },
+    "description": "Load 3 tracks to decks 1-3"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Daft Punk",
+        "Chemical Brothers",
+        "Fatboy Slim",
+        "Prodigy",
+        "Underworld",
+        "Orbital",
+        "Aphex Twin",
+        "Massive Attack"
+      ],
+      "start_deck": 1
+    },
+    "description": "Legendary 8-deck full load"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Jamie xx",
+        "Bicep",
+        "Burial"
+      ],
+      "start_deck": 2
+    },
+    "description": "Load 3 tracks starting at deck 2"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Nils Frahm",
+        "Olafur Arnalds",
+        "Max Richter",
+        "Hauschka"
+      ],
+      "start_deck": 1
+    },
+    "description": "Load 4 neoclassical tracks"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Trentemoller",
+        "Moderat",
+        "Apparat"
+      ],
+      "start_deck": 4
+    },
+    "description": "Load 3 electronic tracks"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Moby"
+      ],
+      "start_deck": 1
+    },
+    "description": "Single track multi-deck load"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "start_deck": 1
+    },
+    "description": "Load 4 classical composers"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Daft Punk",
+        "Chemical Brothers"
+      ],
+      "start_deck": 7
+    },
+    "description": "Load 2 tracks to decks 7-8"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Piano",
+        "Guitar",
+        "Drums",
+        "Bass",
+        "Vocals",
+        "Strings",
+        "Brass",
+        "Synth"
+      ],
+      "start_deck": 1
+    },
+    "description": "Load 8 genre tags"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Intro",
+        "Build",
+        "Drop",
+        "Breakdown",
+        "Bridge",
+        "Climax",
+        "Outro"
+      ],
+      "start_deck": 1
+    },
+    "description": "Load 7 structure-based tracks"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "Test1",
+        "Test2",
+        "Test3",
+        "Test4",
+        "Test5"
+      ],
+      "start_deck": 3
+    },
+    "description": "Load 5 tracks starting at deck 3"
+  },
+  {
+    "tool": "multi_deck_plex_load",
+    "params": {
+      "search_queries": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine"
+      ],
+      "start_deck": 1
+    },
+    "description": "Test 9-deck overflow"
+  },
+  {
+    "tool": "hub_help",
+    "params": {
+      "topic": "overview"
+    },
+    "description": "General help overview"
+  },
+  {
+    "tool": "hub_help",
+    "params": {
+      "topic": "workflows"
+    },
+    "description": "Workflow examples help"
+  },
+  {
+    "tool": "hub_help",
+    "params": {
+      "topic": "examples"
+    },
+    "description": "Quick examples help"
+  },
+  {
+    "tool": "hub_help",
+    "params": {
+      "topic": "plex"
+    },
+    "description": "Plex-specific help"
+  },
+  {
+    "tool": "hub_help",
+    "params": {
+      "topic": "virtualdj"
+    },
+    "description": "VirtualDJ-specific help"
+  },
+  {
+    "tool": "hub_status",
+    "params": {},
+    "description": "Status after operations"
+  },
+  {
+    "description": "Load Depeche Mode to deck 3",
+    "params": {
+      "search_query": "Depeche Mode",
+      "deck_id": 3
+    },
+    "tool": "plex_to_deck"
+  },
+  {
+    "description": "Load New Order to deck 4",
+    "params": {
+      "search_query": "New Order",
+      "deck_id": 4
+    },
+    "tool": "plex_to_deck"
+  },
+  {
+    "description": "Load The Cure to deck 5",
+    "params": {
+      "search_query": "The Cure",
+      "deck_id": 5
+    },
+    "tool": "plex_to_deck"
+  },
+  {
+    "description": "Load Joy Division to deck 6",
+    "params": {
+      "search_query": "Joy Division",
+      "deck_id": 6
+    },
+    "tool": "plex_to_deck"
+  },
+  {
+    "description": "80s playlist shuffled",
+    "params": {
+      "limit": 40,
+      "playlist_name": "80s Classics",
+      "shuffle": true
+    },
+    "tool": "plex_playlist_to_automix"
+  },
+  {
+    "description": "Load 6 tracks to decks 1-6",
+    "params": {
+      "start_deck": 1,
+      "search_queries": [
+        "TrackA",
+        "TrackB",
+        "TrackC",
+        "TrackD",
+        "TrackE",
+        "TrackF"
+      ]
+    },
+    "tool": "multi_deck_plex_load"
+  },
+  {
+    "description": "Final status check",
+    "params": {},
+    "tool": "hub_status"
+  },
+  {
+    "description": "Test nonexistent search",
+    "params": {
+      "search_query": "Nonexistent Artist Name 999",
+      "deck_id": 1
+    },
+    "tool": "plex_to_deck"
+  }
+]
