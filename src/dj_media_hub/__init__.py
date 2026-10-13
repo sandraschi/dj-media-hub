@@ -12,4 +12,3 @@ Cross-server workflows become possible:
 """
 
 __version__ = "1.0.0"
-
